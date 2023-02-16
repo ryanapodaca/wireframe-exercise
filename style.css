@@ -1,1 +1,37 @@
+body {
+  background-color: rgba(18, 170, 170, 0.275);
+}
+p {
+  display: flex-end;
+  height: 300px;
+  width: 400px;
+  overflow:auto;
+}
 
+nav {
+  display: flex;
+  width:fit-content;
+  background-color: rgba(212, 0, 255, 0.093);
+  flex-direction: row;
+}
+
+ul {
+  flex: 20px;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+li {
+  margin: 10px;
+
+}
+
+button {
+  background-color: rgba(212, 0, 255, 0.093);
+  transition: 600ms;
+}
+
+button:hover {
+  background-color: rgba(212, 0, 255, 0.844);
+
+}
